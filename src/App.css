@@ -1,38 +1,160 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+:root {
+  --base-light : #EBF5DF;
+  --base-dark : #2A2B2A;
+  --links : #0c264d;
+} 
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: none;
+}
+
+a {
+  color: var(--links);
+  text-decoration: underline;
+}
+
+body {
+  background-image: linear-gradient(to right top, #051937, #164b60, #4d7f81, #93b3a3, #e0e7d0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.main-form {
+  width: 400px;
+  color: var(--base-dark);
+  border-radius: 10px;
+  margin: auto;
+  padding: 25px;
+  background-color: var(--base-light);
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+  box-shadow: -2px 4px 101px -4px rgba(0,0,0,0.56);
+}
+
+.main-form-register {
+  width: 400px;
+  color: var(--base-dark);
+  border-radius: 10px;
+  margin: auto;
+  padding: 25px;
+  background-color: var(--base-light);
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  box-shadow: -2px 4px 101px -4px rgba(0,0,0,0.56);
+}
+
+.input-bar {
+  margin: 10px 0px 10px 0px;
+  width: 98%;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  outline: 1px solid var(--base-dark);
+  padding: 5px 5px 5px 10px;
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.btn-login {
+  outline: none;
+  border: none;
+  background-color: var(--base-dark);
+  color: var(--base-light);
   text-align: center;
+  width: 40%;
+  margin: 10px auto;
+  display: block;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.4s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-register {
+  outline: none;
+  border: none;
+  background-color: var(--base-dark);
+  color: var(--base-light);
+  text-align: center;
+  width: 40%;
+  margin: 17px auto;
+  display: block;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.4s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.btn-login:hover {
+  outline: 1px solid var(--base-dark);
+  background-color: var(--base-light);
+  transition: 0.4s;
+  color: var(--base-dark);
+}
+
+.btn-register:hover {
+  outline: 1px solid var(--base-dark);
+  background-color: var(--base-light);
+  transition: 0.4s;
+  color: var(--base-dark);
+}
+
+.register-prompt {
+  margin-bottom: -10px;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.prompt {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.ehe {
+  width: 280px;
+  height: 160px;
+  border: 2px solid var(--base-dark);
+}
+
+@media screen and (max-width: 768px) {
+  body, html {
+      background-repeat: no-repeat;
+      scroll-behavior: smooth;
+      scroll-snap-type: none;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .main-form {
+    width: 330px;
+    color: var(--base-dark);
+    border-radius: 10px;
+    margin: auto;
+    padding: 25px;
+    background-color: var(--base-light);
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    box-shadow: -2px 4px 101px -4px rgba(0,0,0,0.56);
   }
-  to {
-    transform: rotate(360deg);
+  
+  .main-form-register {
+    width: 330px;
+    color: var(--base-dark);
+    border-radius: 10px;
+    margin: auto;
+    padding: 25px;
+    background-color: var(--base-light);
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    box-shadow: -2px 4px 101px -4px rgba(0,0,0,0.56);
   }
 }

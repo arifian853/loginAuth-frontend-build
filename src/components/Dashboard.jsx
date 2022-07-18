@@ -20,7 +20,7 @@ export const Dashboard = () => {
             <hr />
             <p>
               <p>{date}</p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus at ducimus modi. Sed veritatis nisi a libero reiciendis ullam? Maiores!</p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus at ducimus modi. Sed veritatis nisi a libero reiciendis ullam? Maiores!.</p>
             <hr />
             <p className='alert alert-danger'>Still in development, ehe~</p>
             <p className='alert alert-success'>See our <Link to="/terms">

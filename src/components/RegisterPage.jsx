@@ -44,7 +44,7 @@ export const RegisterPage = () => {
                     setAlert(result.data.message)
                     setTimeout(() => {
                         setAlert('')
-                    }, 4000)
+                    }, 7000)
                 }
             }
         })
@@ -52,7 +52,7 @@ export const RegisterPage = () => {
             setError(e.response.data.message)
             setTimeout(() => {
                 setError('')
-            }, 4000)
+            }, 7000)
         })
     }
 
@@ -87,8 +87,11 @@ export const RegisterPage = () => {
         <p className='prompt'><input type="checkbox" name="" id="" /> By signing up, you are agree with our <Link to="/terms"><a href="https://google.com">Terms and Services</a></Link></p>
         <button className='btn-register' onClick={signupBtn}>Sign Up</button>
         <p className='register-prompt'>Aleady have an account ?  
-        <Link to="/">
+        <Link to="/login">
         <a href='https://google.com'> Login</a>
+        </Link> <br />
+        <Link to="/">
+            <a href='https://google.com'> Cancel</a>
         </Link>
         </p>
     </div>

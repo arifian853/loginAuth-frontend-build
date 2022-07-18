@@ -11,7 +11,7 @@ export const TermAndServices = () => {
             <img className='ehe' src="img/ehe.png" alt="" /> 
             <br /> <br />
             <p className='register-prompt'>  
-            <Link to="/">
+            <Link to="/login">
             <a href='https://google.com'> Back to Login</a>
             </Link>
             </p>

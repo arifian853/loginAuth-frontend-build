@@ -17,7 +17,7 @@ a {
 }
 
 body {
-  background-image: linear-gradient(to right top, #051937, #164b60, #4d7f81, #93b3a3, #e0e7d0);
+  background-image: url('./img/bg2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0;
@@ -31,11 +31,14 @@ body {
   border-radius: 10px;
   margin: auto;
   padding: 25px;
-  background-color: var(--base-light);
-  margin-top: 25vh;
-  margin-bottom: 25vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   box-shadow: -2px 4px 101px -4px rgba(0,0,0,0.56);
+  border: 1px solid var(--base-dark);
 }
+
 
 .main-form-register {
   width: 400px;
@@ -43,10 +46,12 @@ body {
   border-radius: 10px;
   margin: auto;
   padding: 25px;
-  background-color: var(--base-light);
-  margin-top: 20vh;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  margin-top: 12vh;
   margin-bottom: 20vh;
   box-shadow: -2px 4px 101px -4px rgba(0,0,0,0.56);
+  border: 1px solid var(--base-dark);
 }
 
 .input-bar {
@@ -59,6 +64,7 @@ body {
   padding: 5px 5px 5px 10px;
   font-size: 16px;
   font-family: 'Nunito Sans', sans-serif;
+  background-color: transparent;
 }
 
 .btn-login {
@@ -95,14 +101,14 @@ body {
 
 .btn-login:hover {
   outline: 1px solid var(--base-dark);
-  background-color: var(--base-light);
+  background-color: transparent;
   transition: 0.4s;
   color: var(--base-dark);
 }
 
 .btn-register:hover {
   outline: 1px solid var(--base-dark);
-  background-color: var(--base-light);
+  background-color: transparent;
   transition: 0.4s;
   color: var(--base-dark);
 }
@@ -124,6 +130,8 @@ body {
   border: 2px solid var(--base-dark);
 }
 
+
+
 @media screen and (max-width: 768px) {
   body, html {
       background-repeat: no-repeat;
@@ -139,11 +147,13 @@ body {
     color: var(--base-dark);
     border-radius: 10px;
     margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     padding: 25px;
-    background-color: var(--base-light);
-    margin-top: 25vh;
-    margin-bottom: 25vh;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     box-shadow: -2px 4px 101px -4px rgba(0,0,0,0.56);
+    border: 1px solid var(--base-dark);
   }
   
   .main-form-register {
@@ -152,9 +162,11 @@ body {
     border-radius: 10px;
     margin: auto;
     padding: 25px;
-    background-color: var(--base-light);
-    margin-top: 20vh;
-    margin-bottom: 20vh;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     box-shadow: -2px 4px 101px -4px rgba(0,0,0,0.56);
+    border: 1px solid var(--base-dark);
   }
 }

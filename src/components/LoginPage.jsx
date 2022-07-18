@@ -48,27 +48,34 @@ export const LoginPage = () => {
           <Navigate to="/dashboard" />
         )
       }
-        <div className='main-form'>
-            <h2>Hello ! </h2>
-            {
-              error && (
-              <div> 
-                <p className='alert alert-danger'>{error}</p>
-              </div>
-              )
-            }
-            <hr />
-            <label>Username</label> <br />
-            <input className='input-bar' type="text" placeholder='Enter your username' value={username} onChange={onChangeUsername}/> <br />
-            <label>Password</label> <br />
-            <input className='input-bar' type="password" placeholder='Enter your password' value={password} onChange={onChangePassword}/>
-            <p className='prompt'><input type="checkbox" /> Remember me</p>
-            <button className='btn-login' onClick={loginBtn}>Login</button>
-            <p className='register-prompt'>Don't have an account ? 
-            <Link to="/signup">
-            <a href='https://google.com'> Create an account</a>
-            </Link>
-            </p>
+        <div className="wrapper">
+          <div className="bubble"></div>
+          <div className="bubble2"></div>
+            <div className='main-form'>
+                <h2>Hello ! </h2>
+                {
+                  error && (
+                  <div> 
+                    <p className='alert alert-danger'>{error}</p>
+                  </div>
+                  )
+                }
+                <hr />
+                <label>Username</label> <br />
+                <input className='input-bar' type="text" placeholder='Enter your username' value={username} onChange={onChangeUsername}/> <br />
+                <label>Password</label> <br />
+                <input className='input-bar' type="password" placeholder='Enter your password' value={password} onChange={onChangePassword}/>
+                <p className='prompt'><input type="checkbox" /> Remember me</p>
+                <button className='btn-login' onClick={loginBtn}>Login</button>
+                <p className='register-prompt'>Don't have an account ? 
+                <Link to="/signup">
+                <a href='https://google.com'> Create an account</a>
+                </Link> <br />
+                <Link to="/">
+                <a href='https://google.com'> Cancel</a>
+                </Link>
+                </p>
+            </div>
         </div>
     </Fragment>
   )

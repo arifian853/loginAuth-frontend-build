@@ -93,7 +93,7 @@ export const LandingPage = () => {
             <p>Include : </p>
             <ul>
               <li>Free .xyz domain</li>
-              <li>2-Core CPU (2GHz)</li>
+              <li>2-Core CPU (2.0GHz)</li>
               <li>2 GB RAM</li>
               <li>2GB Storage (SSD)</li>
               <li>Anti DDoS protection</li>

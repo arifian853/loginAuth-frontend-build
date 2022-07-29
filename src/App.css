@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 :root {
-  --base-light : #EBF5DF;
-  --base-dark : #2A2B2A;
+  --base-light : #E7F6F2;
+  --base-dark : #2C3333;
+  --base-blue : #395B64;
+  --base-light-blue : #A5C9CA;
   --links : #0c264d;
 } 
 
@@ -17,12 +19,11 @@ a {
 }
 
 body {
-  background-image: url('./img/bg2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: rgb(165,201,202);
+  background: linear-gradient(114deg, rgba(165,201,202,1) 20%, rgba(231,246,242,1) 100%);
   padding: 0;
   margin: 0;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .main-form {
@@ -65,6 +66,18 @@ body {
   font-size: 16px;
   font-family: 'Nunito Sans', sans-serif;
   background-color: transparent;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: var(--base-dark);
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--base-dark);
+}
+
+::placeholder {
+  color: var(--base-dark);
 }
 
 .btn-login {

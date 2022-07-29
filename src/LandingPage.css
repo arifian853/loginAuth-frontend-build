@@ -1,14 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
 :root {
-  --base-light : #EBF5DF;
-  --base-dark : #2A2B2A;
-  --links : #0c264d;
+   --base-light : #E7F6F2;
+   --base-dark : #2C3333;
+   --base-blue : #395B64;
+   --base-light-blue : #A5C9CA;
+   --links : #0c264d;
 } 
 
 html {
   scroll-behavior: smooth;
   overflow-x: none;
+}
+
+/* Width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Background */
+::-webkit-scrollbar-track {
+    background: var(--base-light);
+}
+
+/*The Scrollbar itself*/
+::-webkit-scrollbar-thumb {
+    background: var(--base-dark);
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: var(--base-blue);
 }
 
 a {
@@ -17,18 +38,28 @@ a {
 }
 
 body {
-  background-image: url('./img/bg2.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background: rgb(165,201,202);
+  background: linear-gradient(114deg, rgba(165,201,202,1) 20%, rgba(231,246,242,1) 100%);
   padding: 0;
   margin: 0;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 nav {
     background-color: transparent;
     border-bottom: 1px solid var(--base-dark);
+}
+
+.logo-nav {
+    height: 45px;
+    width: auto;
+}
+
+.logo-greeting {
+    height: 140px;
+    width: auto;
 }
 
 .button-login {
@@ -94,7 +125,7 @@ nav {
 }
 
 .right-side-content {
-    margin-top: 30vh
+    margin-top: 25vh
 }
 
 .about {
@@ -143,6 +174,57 @@ nav {
     margin: 10px;
 }
 
+.pricing {
+    text-align: center;
+    height: 200vh;
+    padding: 40px;
+}
+
+.price-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.prices {
+    height: 550px;
+    width: 330px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid var(--base-dark);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.services {
+    text-align: left;
+    height: 250px;
+}
+
+.teams {
+    text-align: center;
+    height: 60vh;
+    padding: 20px;
+}
+
+.teams-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 0 auto;
+}
+
+.teams-items {
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+}
+
+.teams-items img {
+    width: 100px;
+    height: auto;
+    margin: 5px;
+}
 
 
 
@@ -172,13 +254,18 @@ nav {
     .right-side {
         color: var(--base-dark);
         margin: 0 auto;
-        padding: 100px;
+        padding: 90px;
         width: 100%;
     }
 
     .greeting {
         margin-top: 20vh;
         font-size: 3em;
+    }
+
+    .logo-greeting {
+        height: 100px;
+        width: auto;
     }
 
     .about {
@@ -204,6 +291,13 @@ nav {
         margin: 0 auto;
         padding: 20px;
         width: 100%;
+    }
+
+    .teams-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin: 0 auto;
     }
 }
 

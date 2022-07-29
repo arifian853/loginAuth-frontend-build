@@ -1,6 +1,6 @@
 {
   "name": "login-auth",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://arifian853.github.io/loginAuth-frontend-build/",
   "private": false,
   "dependencies": {

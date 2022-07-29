@@ -71,7 +71,7 @@ export const RegisterPage = () => {
         {
             alert && (
                 <div> 
-                <p className='alert alert-primary'>{alert}</p>
+                <p className='alert alert-success'>{alert}</p>
                 </div>   
             )
         }

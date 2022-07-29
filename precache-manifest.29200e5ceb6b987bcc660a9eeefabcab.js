@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "813a1c9d4017588f9cf1",
-    "url": "/loginAuth-frontend-build/static/css/main.60d53acb.chunk.css"
+    "revision": "19eddc92b9df74fa8e82",
+    "url": "/loginAuth-frontend-build/static/css/main.195e5c38.chunk.css"
   },
   {
-    "revision": "813a1c9d4017588f9cf1",
-    "url": "/loginAuth-frontend-build/static/js/main.813a1c9d.chunk.js"
+    "revision": "19eddc92b9df74fa8e82",
+    "url": "/loginAuth-frontend-build/static/js/main.19eddc92.chunk.js"
   },
   {
     "revision": "f993ed0ea40465f97e7e",
@@ -20,11 +20,7 @@ self.__precacheManifest = [
     "url": "/loginAuth-frontend-build/static/js/runtime~main.c79b69e0.js"
   },
   {
-    "revision": "d956610b09e588719eb0edd280f0688c",
-    "url": "/loginAuth-frontend-build/static/media/bg2.d956610b.jpg"
-  },
-  {
-    "revision": "b76b6d9405625d5b17c2b86cc7771777",
+    "revision": "4abc37ac2f124c01400234a59d2d22d3",
     "url": "/loginAuth-frontend-build/index.html"
   }
 ];

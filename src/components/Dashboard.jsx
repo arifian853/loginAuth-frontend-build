@@ -1,6 +1,6 @@
-import React from 'react'
-import '../App.css'
-import { Navigate, Link } from 'react-router-dom'
+import React from 'react';
+import '../App.css';
+import { Navigate, Link } from 'react-router-dom';
 
 export const Dashboard = () => {
 

@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import '../App.css'
-import { Link } from 'react-router-dom'
-import axios from 'axios'
+import React, { useState } from 'react';
+import '../App.css';
+import { Link } from 'react-router-dom';
+import axios from 'axios';
 
 export const RegisterPage = () => {
     const[username,setUsername] = useState('');
@@ -89,7 +89,8 @@ export const RegisterPage = () => {
         <p className='register-prompt'>Aleady have an account ?  
         <Link to="/login">
         <a href='https://google.com'> Login</a>
-        </Link> <br />
+        </Link> 
+        <br />
         <Link to="/">
             <a href='https://google.com'> Cancel</a>
         </Link>

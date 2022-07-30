@@ -163,8 +163,6 @@ body {
   border-radius: 5px;
 }
 
-
-
 @media screen and (max-width: 768px) {
   body, html {
       background-repeat: no-repeat;

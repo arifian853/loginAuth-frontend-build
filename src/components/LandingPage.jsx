@@ -8,7 +8,7 @@ export const LandingPage = () => {
         {/* Navbar */}
         <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand mx-3" href="#"> <img className='logo-nav' src="../img/edge-logo-transparent.png" alt="" /> </a>
+    <a class="navbar-brand mx-3" href="#"> <img className='logo-nav' src="img/edge-logo-transparent.png" alt="" /> </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -48,7 +48,7 @@ export const LandingPage = () => {
     {/* Landing Page */}
     <div className="landing-wrapper">
         <div className="left-side">
-            <h1 className='greeting'>Welcome to <br /> <img className='logo-greeting' src="../img/edge-logo-transparent-gray.png" alt="" /> </h1>
+            <h1 className='greeting'>Welcome to <br /> <img className='logo-greeting' src="img/edge-logo-transparent-gray.png" alt="" /> </h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, vel minus? Delectus provident nemo obcaecati dolore iusto, alias non qui.</p>
         </div>
         <div className="right-side">
@@ -245,17 +245,17 @@ export const LandingPage = () => {
       <br />
       <div className="teams-wrapper">
         <div className="teams-items">
-          <img src="../img/man.png" alt="" />
+          <img src="img/man.png" alt="" />
           <p>John Doe</p>
           <p className='text-muted'>CEO</p>
         </div>
         <div className="teams-items">
-          <img src="../img/woman.png" alt="" />
+          <img src="img/woman.png" alt="" />
           <p>Jane Doe</p>
           <p className='text-muted'>Front-end Developer</p>
         </div>
         <div className="teams-items">
-          <img src="../img/man (1).png" alt="" />
+          <img src="img/man (1).png" alt="" />
           <p>Jhon Doe</p>
           <p className='text-muted'>Back-end Developer</p>
         </div>

@@ -31,6 +31,7 @@ export const LoginPage = () => {
     .then(result => {
       if(result) {
         localStorage.setItem('token', result.data.token)
+        localStorage.setItem('username', data.username, JSON.stringify(data.username))
         setNavigate(true)
         
       }
@@ -49,10 +50,8 @@ export const LoginPage = () => {
         )
       }
         <div className="wrapper">
-          <div className="bubble"></div>
-          <div className="bubble2"></div>
             <div className='main-form'>
-                <h2>Hello ! </h2>
+                <h2>Welcome back ! </h2>
                 {
                   error && (
                   <div> 

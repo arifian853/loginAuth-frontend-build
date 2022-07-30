@@ -299,5 +299,18 @@ nav {
         gap: 5px;
         margin: 0 auto;
     }
+
+    .pricing {
+        text-align: center;
+        height: 630vh;
+        padding: 20px;
+    }
+    
+    .price-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 0 auto;
+    }
 }
 

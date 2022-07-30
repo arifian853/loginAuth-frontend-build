@@ -59,7 +59,7 @@ export const RegisterPage = () => {
   return (
     <div>
         <div className='main-form-register'>
-        <h2>Welcome ! </h2>
+        <h2>Welcome to  <img className='logo-nav' src="img/edge-logo-transparent-gray.png" alt="" /> ! </h2>
         <p className='user-sctn'>Please fill the form to make an account</p>
         {
             error && (

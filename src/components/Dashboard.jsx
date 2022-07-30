@@ -4,10 +4,12 @@ import { Navigate, Link } from 'react-router-dom'
 
 export const Dashboard = () => {
 
+  const username = (localStorage.getItem('username'))
+
   const token = localStorage.getItem('token')
 
   if(!token) {
-    return <Navigate to="/" />
+    return <Navigate to="/login" />
   }
 
   const current = new Date();
@@ -15,20 +17,21 @@ export const Dashboard = () => {
 
   return (
     <div>
-        <div className="main-form">
-            <h1>Hello ! </h1>
+        <div className="dashboard">
+            <h1>Hello ! {username} </h1>
+            <p>{date}</p>
             <hr />
-            <p>
-              <p>{date}</p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus at ducimus modi. Sed veritatis nisi a libero reiciendis ullam? Maiores!.</p>
+              <p>Have a nice day ! {username}</p>
             <hr />
-            <p className='alert alert-danger'>Still in development, ehe~</p>
-            <p className='alert alert-success'>See our <Link to="/terms">
-            <a href='https://google.com'> Terms and Service</a>
-            </Link></p>
+            <p className='alert'>Current plan : <span className='plans'>Edge <b className='text-success'>Personal +</b></span></p>
+            
             <hr />
             <Link to="/">
-            <a href='https://google.com'> Logout </a>
+            <button className='btn-register'>Logout</button>
+            </Link>
+            <br />
+            <Link to="/terms">
+            <a href='https://google.com'> Terms and Service</a>
             </Link>
         </div>
     </div>

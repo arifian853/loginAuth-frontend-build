@@ -27,7 +27,7 @@ export const LoginPage = () => {
       password : password
     }
 
-    axios.post('http://localhost:3001/login', data)
+    axios.post('https://edge-auth-api2.herokuapp.com/login', data)
     .then(result => {
       if(result) {
         localStorage.setItem('token', result.data.token)

@@ -34,7 +34,7 @@ export const RegisterPage = () => {
             email : email,
             password : password
         }
-        axios.post('http://localhost:3001/register', data) 
+        axios.post('https://edge-auth-api2.herokuapp.com/register', data) 
         .then(result => {
             if(result) {
                 if(result.data) {

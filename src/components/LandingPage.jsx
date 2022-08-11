@@ -32,6 +32,8 @@ export const LandingPage = () => {
             <li><a class="dropdown-item" href="#">Instagram</a></li>
             <li><hr class="dropdown-divider" /></li>
             <li><a class="dropdown-item" href="#">GitHub</a></li>
+            <li><a class="dropdown-item" href="#">StackOverflow</a></li>
+            <li><a class="dropdown-item" href="#">Gitlab</a></li>
           </ul>
         </li>
       </ul>

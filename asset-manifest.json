@@ -1,7 +1,7 @@
 {
   "main.css": "/loginAuth-frontend-build/static/css/main.c5a843e2.chunk.css",
-  "main.js": "/loginAuth-frontend-build/static/js/main.39919ecd.chunk.js",
-  "main.js.map": "/loginAuth-frontend-build/static/js/main.39919ecd.chunk.js.map",
+  "main.js": "/loginAuth-frontend-build/static/js/main.734e948c.chunk.js",
+  "main.js.map": "/loginAuth-frontend-build/static/js/main.734e948c.chunk.js.map",
   "static/js/1.f993ed0e.chunk.js": "/loginAuth-frontend-build/static/js/1.f993ed0e.chunk.js",
   "static/js/1.f993ed0e.chunk.js.map": "/loginAuth-frontend-build/static/js/1.f993ed0e.chunk.js.map",
   "static/js/2.73ff9a1e.chunk.js": "/loginAuth-frontend-build/static/js/2.73ff9a1e.chunk.js",
@@ -10,6 +10,6 @@
   "runtime~main.js.map": "/loginAuth-frontend-build/static/js/runtime~main.c79b69e0.js.map",
   "static/css/main.c5a843e2.chunk.css.map": "/loginAuth-frontend-build/static/css/main.c5a843e2.chunk.css.map",
   "index.html": "/loginAuth-frontend-build/index.html",
-  "precache-manifest.a22bb7e11031a2f572a3cbd38386b23c.js": "/loginAuth-frontend-build/precache-manifest.a22bb7e11031a2f572a3cbd38386b23c.js",
+  "precache-manifest.4b7edea2814a04ccc76d38590ebbaf98.js": "/loginAuth-frontend-build/precache-manifest.4b7edea2814a04ccc76d38590ebbaf98.js",
   "service-worker.js": "/loginAuth-frontend-build/service-worker.js"
 }
